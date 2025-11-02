@@ -28,6 +28,7 @@
         --primary-color: #e76f51;
         --primary-hover: #cf5a3b;
         --latest-hover: #e0e0e0;
+        --footer-background: #0b0d17;
       }
     </style>
   </head>
@@ -509,7 +510,7 @@
         </div>
       </section>
       <!-- questions section -->
-      <section class="max-w-6xl mx-auto">
+      <section class="max-w-6xl mx-auto mb-28">
         <h1
           class="text-[#0D0925] text-5xl font-semibold font-poppins text-center mb-14"
         >
@@ -600,5 +601,37 @@
         </div>
       </section>
     </main>
+    <footer class="bg-neutral text-neutral-content p-10">
+      <div
+        class="max-w-6xl mx-auto flex flex-col sm:flex-row sm:justify-between items-center gap-10 px-5"
+      >
+        <aside class="flex flex-col gap-5">
+          <ul class="flex gap-6">
+            <li><a href="">Download Now</a></li>
+            <li><a href="">License</a></li>
+          </ul>
+          <ul class="flex gap-6 flex-wrap">
+            <li><a href="">About</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Pricing</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Privacy Policy</a></li>
+          </ul>
+          <p>© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get the App</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+              <img src="images/others/android.png" alt="" />
+            </a>
+            <a>
+              <img src="images/others/ios.png" alt="" />
+            </a>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
